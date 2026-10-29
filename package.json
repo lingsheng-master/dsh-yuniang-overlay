@@ -1,0 +1,11 @@
+{
+  "name": "dsh-yuniang-overlay",
+  "version": "0.2.0",
+  "description": "小鱼娘的桌面悬浮窗桥：监听 outbox.jsonl 的用户输入，唤醒一个专用会话回答，把回答（日语+中文字幕）写回 inbox.jsonl 给 Electron 悬浮窗显示。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "keywords": ["dsh", "dsh-bundle", "overlay", "bridge"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
